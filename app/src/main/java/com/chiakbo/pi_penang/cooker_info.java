@@ -1,4 +1,4 @@
-package com.example.pi_penang;
+package com.chiakbo.pi_penang;
 
 import android.content.DialogInterface;
 import android.content.Intent;

@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.pi_penang">
+    package="com.chiakbo.pi_penang">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Pi Penang"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="Chiak Bo"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
-        <activity android:name=".thankyoupage"></activity>
+        <activity android:name=".splashscreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".homepage" />
         <activity android:name=".order_history" />
-        <activity android:name=".Home_page" />
         <activity android:name=".final_order" />
         <activity android:name=".cooker_info" />
         <activity android:name=".Users_info" />
         <activity android:name=".Pi_laundry" />
         <activity android:name=".Register_page" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

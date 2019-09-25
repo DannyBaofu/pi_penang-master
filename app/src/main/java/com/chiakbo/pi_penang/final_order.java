@@ -1,4 +1,4 @@
-package com.example.pi_penang;
+package com.chiakbo.pi_penang;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;

@@ -1,4 +1,4 @@
-package com.example.pi_penang;
+package com.chiakbo.pi_penang;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

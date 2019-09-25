@@ -63,7 +63,10 @@
         android:outlineSpotShadowColor="@color/colorPrimary"
         android:selectAllOnFocus="true"
         android:singleLine="true"
+        android:textColor="#FAFFFFFF"
+        android:textColorHighlight="#00FFFFFF"
         android:textColorHint="#F6F6F6"
+        android:textColorLink="#00FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/login_button"
         app:layout_constraintEnd_toEndOf="parent"
@@ -88,7 +91,8 @@
         android:inputType="textPersonName"
         android:selectAllOnFocus="false"
         android:singleLine="true"
-        android:textColor="#FA030303"
+        android:textColor="#FAFFFFFF"
+        android:textColorHighlight="#00FFFFFF"
         android:textColorHint="#F6F6F6"
         android:textColorLink="#00FFFFFF"
         android:textSize="20sp"
@@ -115,10 +119,10 @@
         app:fontFamily="cursive"
         app:layout_constraintBottom_toTopOf="@+id/email"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.635"
+        app:layout_constraintHorizontal_bias="0.632"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.895" />
+        app:layout_constraintVertical_bias="0.912" />
 
     <ProgressBar
         android:id="@+id/progressBar"

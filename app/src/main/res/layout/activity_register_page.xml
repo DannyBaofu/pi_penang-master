@@ -6,31 +6,70 @@
     android:layout_height="match_parent"
     tools:context=".Register_page">
 
+
     <LinearLayout
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/background"
         android:gravity="center_vertical"
         android:orientation="vertical"
         android:padding="16dp"
         tools:context=".RegistrationActivity">
 
         <TextView
+            android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Register new account" />
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:text="Chiak Bo"
+            android:textColor="#F3CFCF"
+            android:textSize="60sp"
+            app:fontFamily="cursive" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="#00F1EDED"
+            android:text="Register new account"
+            android:textColor="#FAFFFFFF"
+            android:textColorHighlight="#00F5F2F2"
+            android:textColorHint="#00FAFAFA"
+            android:textColorLink="#00FFFEFE" />
 
         <EditText
             android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email" />
+            android:hint="Email"
+            android:textColor="#00F5F2F2"
+            android:textColorHighlight="#00FCFCFC"
+            android:textColorHint="#F6F6F6"
+            android:textColorLink="#00FAF6F6" />
 
         <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:shadowColor="#FAFFFFFF"
+            android:textColor="#FAFFFFFF"
+            android:textColorHighlight="#00FFFFFF"
+            android:textColorHint="#F6F6F6"
+            android:textColorLink="#00FFFFFF" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
 
         <Button
             android:id="@+id/register"
@@ -38,25 +77,18 @@
             android:layout_height="wrap_content"
             android:text="Register" />
 
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="182dp"
-            android:layout_height="wrap_content"
-            android:hapticFeedbackEnabled="false"
-            android:text="Already have an account?" />
-
         <Button
             android:id="@+id/loginButton"
             android:layout_width="72dp"
             android:layout_height="wrap_content"
             android:text="Login" />
 
-        <ProgressBar
-            android:id="@+id/progressBar"
-            style="?android:attr/progressBarStyle"
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="182dp"
             android:layout_height="wrap_content"
-            android:visibility="gone"/>
+            android:hapticFeedbackEnabled="false"
+            android:text="Already have an account?" />
 
     </LinearLayout>
 

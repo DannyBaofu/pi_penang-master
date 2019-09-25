@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:739839721053:android:a6cd0313d3fba16c",
         "android_client_info": {
-          "package_name": "com.example.pi_penang"
+          "package_name": "com.chiakbo.pi_penang"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "739839721053-i8lmnk2mbn850glqoj197ub21aof7i5q.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.pi_penang",
+            "package_name": "com.chiakbo.pi_penang",
             "certificate_hash": "8f3aa9db45b859dbf1542e0011a8b81362a7b241"
           }
         },
